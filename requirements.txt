@@ -2,5 +2,5 @@ pandas
 seaborn
 matplotlib
 streamlit
-plotly_express
-sklearn
+plotly-express
+-U scikit-learn
