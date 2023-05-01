@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 
-dataset = pd.read_csv(r"C:\Users\cauai\Desktop\Projetos\crop_recomendation\Crop_recommendation.csv")
+dataset = pd.read_csv("Crop_recommendation.csv")
 
 st.header("Teste de Algoritmos para um Sistema de recomendação de cultura")
 texto = "O Objetivo desse projeto foi testar 2 algoritmos de classificação,onde baseado nos parâmetros nutrientes,temperatura,umidade, ph e água foi recomendado qual cultura plantar tomando como base a classificação feita pelos algoritmos de Árvore de Decisão e Random Forest."
